@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!--header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">
+            <img
+              src="images/netflixlogo-removebg-preview.png"
+              alt="netflix logo"
+            />
+          </a>
+        </div>
+        <ul>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+        </ul>
+        <div class="header-buttons">
+          <button class="header__theme-button" title="Toggle Theme">
+            <!--<img
+                  src="assets/icons/moon.svg"
+                  class="header__theme-button-moon"
+                  alt="moon"
+                />
+                <img
+                  src="assets/icons/sun.svg"
+                  class="header__theme-button-sun"
+                  alt="sun"
+                />-->
+            <svg
+              class="header__theme-button-moon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="var(--font-color)"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"
+              />
+            </svg>
+            <svg
+              class="header__theme-button-sun"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="var(--font-color)"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+              />
+            </svg>
+          </button>
+          <div class="user_avatar">
+            <a href="#">
+              <img src="images/netflix-avatar.png" alt="netflix avatar" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--main-->
+    <main>
+      <!--banner-->
+      <div class="banner">
+        <div class="banner_contents">
+          <h1 class="banner_title">종이의 집</h1>
+          <div class="banner_btn">
+            <button>재생</button>
+          </div>
+          <p class="banner_description">
+            역사상 최대 규모의 강도 사건을 수행하기 위해
+            <br />
+            교수라는 의문의 남자가 강도 8인단을 구출하는데...
+          </p>
+        </div>
+      </div>
+
+      <!--NETFLIX ORIGINAL-->
+      <div class="row">
+        <h2 class="row_title">NETFLIX ORIGINAL</h2>
+        <div class="row_posters row_posters_large">
+          <img src="images/large-movie1.jpg" alt="movie" class="row_poster" />
+          <img src="images/large-movie2.jpg" alt="movie" class="row_poster" />
+          <img src="images/large-movie3.jpg" alt="movie" class="row_poster" />
+          <img src="images/large-movie4.jpg" alt="movie" class="row_poster" />
+          <img src="images/large-movie5.jpg" alt="movie" class="row_poster" />
+          <img src="images/large-movie6.jpg" alt="movie" class="row_poster" />
+          <img src="images/large-movie7.jpg" alt="movie" class="row_poster" />
+          <img src="images/large-movie8.jpg" alt="movie" class="row_poster" />
+        </div>
+      </div>
+
+      <!--TRENDING NOW-->
+      <div class="row">
+        <h2 class="row_title">Trending Now</h2>
+        <div class="row_posters">
+          <img src="images/small-movie1.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie2.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie3.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie4.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie5.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie6.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie7.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie8.jpeg" alt="movie" class="row_poster" />
+        </div>
+      </div>
+
+      <!--TOP RATED-->
+      <div class="row">
+        <h2 class="row_title">Top Rated</h2>
+        <div class="row_posters">
+          <img src="images/small-movie1.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie2.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie3.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie4.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie5.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie6.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie7.jpg" alt="movie" class="row_poster" />
+          <img src="images/small-movie8.jpeg" alt="movie" class="row_poster" />
+        </div>
+      </div>
+    </main>
+    <!--footer-->
+    <footer id="footer">
+      <p>Copyright</p>
+    </footer>
+  </body>
+</html>
