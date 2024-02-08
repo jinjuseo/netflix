@@ -182,6 +182,19 @@ body::-webkit-scrollbar {
 .row_posters::-webkit-scrollbar {
   display: none;
 }
+
+#footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+#footer p {
+  color: var(--font-color);
+}
 .header__theme-button {
   background-color: transparent;
   border: none;
